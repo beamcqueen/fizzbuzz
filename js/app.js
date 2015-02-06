@@ -17,3 +17,5 @@ var value = document.createElement("p");
 var node = document.createTextNode("This is where my numbers will go.");
 value.appendChild(node);
 document.getElementById("executor").appendChild(value);
+
+var number= prompt("Please pick a number.")
